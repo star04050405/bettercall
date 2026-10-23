@@ -1,0 +1,13 @@
+{
+  "name": "Better Call Saul 圣地巡礼打卡站",
+  "short_name": "BCS Tour",
+  "description": "阿布奎基巡礼与案发现场地标指南",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#18181b",
+  "theme_color": "#f59e0b",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

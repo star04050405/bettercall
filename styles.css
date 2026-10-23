@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Permanent+Marker&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap');
+
+    .font-saul {
+      font-family: 'Permanent Marker', cursive, 'Cinzel', serif;
+    }
+    .font-legal {
+      font-family: 'Cinzel', serif;
+    }
+    .neon-glow-yellow {
+      text-shadow: 0 0 8px rgba(251, 191, 36, 0.8), 0 0 20px rgba(245, 158, 11, 0.5);
+    }
+    .neon-glow-red {
+      text-shadow: 0 0 8px rgba(239, 68, 68, 0.8), 0 0 20px rgba(220, 38, 38, 0.6);
+    }
+    .legal-pad-bg {
+      background-color: #fef9c3;
+      background-image: repeating-linear-gradient(transparent, transparent 27px, #e2e8f0 28px);
+    }
+    .sand-gradient {
+      background: linear-gradient(135deg, #1e1b18 0%, #2b1f14 50%, #15110e 100%);
+    }
+    .desert-sun {
+      background: radial-gradient(circle at 50% 120%, #f59e0b 0%, #b45309 45%, #1c1917 90%);
+    }
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #18181b;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #d97706;
+      border-radius: 3px;
+    }
+    @keyframes bellShake {
+      0%, 100% { transform: rotate(0deg); }
+      20% { transform: rotate(-15deg) scale(1.1); }
+      40% { transform: rotate(15deg) scale(1.1); }
+      60% { transform: rotate(-8deg); }
+      80% { transform: rotate(8deg); }
+    }
+    .bell-ring {
+      animation: bellShake 0.4s ease;
+    }
